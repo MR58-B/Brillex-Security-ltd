@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Optimization -->
+    <title>BRILLEX SECURITY GROUP LTD | Premier Security & Cyber Defense Nairobi, Kenya</title>
+    <meta name="description" content="BRILLEX SECURITY GROUP LTD provides elite security guarding, V.I.P protection, cyber security, access control, CCTV surveillance, K9 security dogs, forensic audit, risk assessment, and ethical hacking in Nairobi, Kenya.">
+    <meta name="keywords" content="Security Company Nairobi, BRILLEX SECURITY GROUP, VIP Protection Kenya, Cyber Security Nairobi, CCTV Installation, K9 Security Dogs, Ethical Hacking Kenya, Security Guarding">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="BRILLEX SECURITY GROUP LTD">
+    
+    <!-- Open Graph / Social Media SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.brillexsecurity.co.ke/">
+    <meta property="og:title" content="BRILLEX SECURITY GROUP LTD | Elite Protection Services">
+    <meta property="og:description" content="Securing people, assets, and digital infrastructure across Nairobi and Kenya with unyielding excellence.">
+    <meta property="og:image" content="Brillex-logo.jpg">
+
+    <!-- Schema.org JSON-LD for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SecurityService",
+      "name": "BRILLEX SECURITY GROUP LTD",
+      "image": "Brillex-logo.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Mombasa Road, Commercial Complex",
+        "addressLocality": "Nairobi",
+        "addressRegion": "Nairobi County",
+        "postalCode": "00100",
+        "addressCountry": "KE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -1.286389,
+        "longitude": 36.817223
+      },
+      "url": "https://www.brillexsecurity.co.ke",
+      "telephone": "+254700000000",
+      "priceRange": "$$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandRed: '#D32F2F',
+                        brandRedDark: '#990000',
+                        brandNavy: '#0F172A',
+                        brandSlate: '#111827',
+                        brandDarkBg: '#0B0F19',
+                        brandAccent: '#E50914',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Font Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased selection:bg-brandRed selection:text-white">
+
+    <!-- TOP EMERGENCY ALERT BAR -->
+    <div class="bg-gradient-to-r from-brandRedDark via-brandRed to-brandRedDark text-white py-2 px-4 text-xs md:text-sm font-semibold flex justify-between items-center z-50 relative">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <span class="flex h-2.5 w-2.5 relative">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-white"></span>
+                </span>
+                <span class="tracking-wide uppercase text-xs md:text-xs">24/7 Rapid Response & Tactical Command Center | Nairobi, HQ</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-6 text-xs">
+                <a href="tel:+254700000000" class="hover:underline flex items-center gap-1">
+                    <i class="fa-solid fa-phone"></i> Hotline: +254 (0) 700 000 000
+                </a>
+                <a href="mailto:info@brillexsecurity.co.ke" class="hover:underline flex items-center gap-1">
+                    <i class="fa-solid fa-envelope"></i> info@brillexsecurity.co.ke
+                </a>
+                <span id="nairobi-time" class="bg-black/30 px-2 py-0.5 rounded font-mono">EAT --:--:--</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAVBAR (Sticky with glassmorphism) -->
+    <header class="sticky top-0 z-40 bg-brandDarkBg/90 backdrop-blur-md border-b border-gray-800 transition-all duration-300">
+        <div class="container mx-auto px-4 lg:px-8 py-3 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#home" class="flex items-center space-x-3 group">
+                <div class="relative w-12 h-12 rounded-full overflow-hidden border-2 border-brandRed shadow-lg transition transform group-hover:scale-105">
+                    <img src="Brillex-logo.jpg" alt="BRILLEX SECURITY GROUP Logo" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://placehold.co/100x100/111827/E50914?text=B';">
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-extrabold text-lg lg:text-xl tracking-wider text-white leading-tight">
+                        BRILLEX <span class="text-brandRed">SECURITY</span>
+                    </span>
+                    <span class="text-[10px] tracking-widest text-gray-400 uppercase font-semibold">GROUP LTD • NAIROBI</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:flex items-center space-x-7 text-sm font-medium">
+                <a href="#home" class="text-white hover:text-brandRed transition py-1 border-b-2 border-transparent hover:border-brandRed">Home</a>
+                <a href="#about" class="text-gray-300 hover:text-brandRed transition py-1 border-b-2 border-transparent hover:border-brandRed">About Us</a>
+                <a href="#services" class="text-gray-300 hover:text-brandRed transition py-1 border-b-2 border-transparent hover:border-brandRed">Services</a>
+                <a href="#why-us" class="text-gray-300 hover:text-brandRed transition py-1 border-b-2 border-transparent hover:border-brandRed">Why Choose Us</a>
+                <a href="#clients" class="text-gray-300 hover:text-brandRed transition py-1 border-b-2 border-transparent hover:border-brandRed">Clients</a>
+                <a href="#team" class="text-gray-300 hover:text-brandRed transition py-1 border-b-2 border-transparent hover:border-brandRed">Experts</a>
+                <a href="#training" class="text-gray-300 hover:text-brandRed transition py-1 border-b-2 border-transparent hover:border-brandRed">Training Academy</a>
+                <a href="#contact" class="text-gray-300 hover:text-brandRed transition py-1 border-b-2 border-transparent hover:border-brandRed">Contact</a>
+            </nav>
+
+            <!-- CTA Action Button & Mobile Toggle -->
+            <div class="flex items-center space-x-4">
+                <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-gradient-to-r from-brandRed to-brandRedDark rounded-lg shadow-md hover:from-red-600 hover:to-brandRed transition-all duration-300 border border-red-500/30 red-glow">
+                    <i class="fa-solid fa-shield-halved mr-2"></i> Request Audit
+                </a>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="lg:hidden text-gray-300 hover:text-white focus:outline-none p-2 rounded-lg bg-gray-800" aria-label="Toggle navigation menu">
+                    <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-brandSlate border-b border-gray-800 px-6 py-6 transition-all duration-300">
+            <div class="flex flex-col space-y-4 font-medium text-base">
+                <a href="#home" class="mobile-link text-white hover:text-brandRed transition">Home</a>
+                <a href="#about" class="mobile-link text-gray-300 hover:text-brandRed transition">About Us</a>
+                <a href="#services" class="mobile-link text-gray-300 hover:text-brandRed transition">Services</a>
+                <a href="#why-us" class="mobile-link text-gray-300 hover:text-brandRed transition">Why Choose Us</a>
+                <a href="#clients" class="mobile-link text-gray-300 hover:text-brandRed transition">Clients & Testimonials</a>
+                <a href="#team" class="mobile-link text-gray-300 hover:text-brandRed transition">Team of Experts</a>
+                <a href="#training" class="mobile-link text-gray-300 hover:text-brandRed transition">Training Academy</a>
+                <a href="#contact" class="mobile-link text-gray-300 hover:text-brandRed transition">Contact Us</a>
+                <div class="pt-4 border-t border-gray-700 flex flex-col space-y-3">
+                    <a href="tel:+254700000000" class="text-sm text-brandRed font-bold flex items-center gap-2">
+                        <i class="fa-solid fa-phone"></i> Emergency: +254 700 000 000
+                    </a>
+                    <a href="#contact" class="mobile-link w-full text-center px-4 py-3 text-xs font-bold uppercase text-white bg-brandRed rounded-md">
+                        Get Instant Security Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 1: HERO SECTION WITH CAROUSEL & AUTO-TYPING TEXT -->
+    <section id="home" class="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+        <!-- Background Slide Show Carousel (3 Images) -->
+        <div class="absolute inset-0 z-0">
+            <!-- Slide 1: High Tech Security Center -->
+            <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1920&q=80');"></div>
+            <!-- Slide 2: Tactical VIP Guarding -->
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=1920&q=80');"></div>
+            <!-- Slide 3: Cyber Security & Surveillance -->
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1920&q=80');"></div>
+
+            <!-- Dark Overlay Gradients -->
+            <div class="absolute inset-0 bg-gradient-to-r from-brandDarkBg via-brandDarkBg/80 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-brandDarkBg via-transparent to-black/60"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="container mx-auto px-4 lg:px-8 relative z-10 py-20">
+            <div class="max-w-3xl">
+                <!-- Status Badge -->
+                <div class="inline-flex items-center space-x-2 bg-brandRed/20 border border-brandRed/40 px-3 py-1.5 rounded-full text-brandRed text-xs font-bold tracking-wider uppercase mb-6 backdrop-blur-md">
+                    <i class="fa-solid fa-shield text-brandRed"></i>
+                    <span>Licensed & Certified Security Provider in Kenya</span>
+                </div>
+
+                <!-- Animated Typewriter Title -->
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-tight min-h-[140px] sm:min-h-[160px] md:min-h-[120px]">
+                    <span id="typed-text" class="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-100 to-gray-400"></span><span class="cursor">&nbsp;</span>
+                </h1>
+
+                <!-- Subtitle -->
+                <p class="text-gray-300 text-base sm:text-lg md:text-xl font-normal leading-relaxed mb-8 max-w-2xl">
+                    BRILLEX SECURITY GROUP LTD integrates elite tactical guarding, AI surveillance, K9 canine units, and offensive cyber defenses to safeguard lives, assets, and enterprises across Nairobi and East Africa.
+                </p>
+
+                <!-- Action Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#services" class="inline-flex items-center justify-center px-8 py-4 text-sm font-bold uppercase tracking-wider text-white bg-brandRed hover:bg-brandRedDark rounded-xl shadow-lg transition transform hover:-translate-y-1 border border-red-500/40 red-glow">
+                        <i class="fa-solid fa-layer-group mr-2 text-base"></i> Explore Security Services
+                    </a>
+                    <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 text-sm font-bold uppercase tracking-wider text-white bg-gray-900/80 hover:bg-gray-800 rounded-xl border border-gray-700 backdrop-blur-sm transition transform hover:-translate-y-1">
+                        <i class="fa-solid fa-clipboard-check mr-2 text-brandRed"></i> Request Threat Audit
+                    </a>
+                </div>
+
+                <!-- Trust Badges -->
+                <div class="mt-12 pt-8 border-t border-gray-800/80 grid grid-cols-2 sm:grid-cols-3 gap-4 text-gray-400 text-xs uppercase font-semibold tracking-wider">
+                    <div class="flex items-center space-x-2">
+                        <i class="fa-solid fa-circle-check text-brandRed text-sm"></i>
+                        <span>24/7 Rapid Tactical Response</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fa-solid fa-lock text-brandRed text-sm"></i>
+                        <span>ISO Standards Compliant</span>
+                    </div>
+                    <div class="flex items-center space-x-2 col-span-2 sm:col-span-1">
+                        <i class="fa-solid fa-user-shield text-brandRed text-sm"></i>
+                        <span>Vetted & Trained Officers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT US -->
+    <section id="about" class="py-20 bg-brandSlate relative overflow-hidden">
+        <div class="container mx-auto px-4 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Column: Visual Grid -->
+                <div class="lg:col-span-6 relative">
+                    <div class="relative rounded-2xl overflow-hidden border border-gray-700 shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80" alt="Brillex Operations Room Nairobi" class="w-full h-[400px] object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                        
+                        <!-- Embedded Floating Stat Badge -->
+                        <div class="absolute bottom-6 left-6 bg-brandNavy/90 backdrop-blur-md border border-brandRed/50 p-4 rounded-xl shadow-xl flex items-center space-x-4">
+                            <div class="p-3 bg-brandRed/20 rounded-lg text-brandRed">
+                                <i class="fa-solid fa-award text-3xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-2xl font-black text-white">15+ Years</h4>
+                                <p class="text-xs text-gray-300 uppercase tracking-wider font-semibold">Excellence in Nairobi Security</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Content -->
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center space-x-2 text-brandRed font-bold text-xs uppercase tracking-widest">
+                        <i class="fa-solid fa-building-shield"></i>
+                        <span>About Brillex Security Group</span>
+                    </div>
+
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
+                        Kenya's Premier Defense & Security Partner
+                    </h2>
+
+                    <p class="text-gray-300 leading-relaxed text-base">
+                        Headquartered in Nairobi, <strong class="text-white">BRILLEX SECURITY GROUP LTD</strong> is a premier security agency offering holistic physical, technical, and cybersecurity protection. We combine elite human intelligence with cutting-edge technology to mitigate physical security threats and safeguard critical corporate data.
+                    </p>
+
+                    <!-- Mission & Vision Cards -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div class="bg-brandDarkBg p-4 rounded-xl border border-gray-800">
+                            <div class="flex items-center space-x-3 mb-2">
+                                <i class="fa-solid fa-bullseye text-brandRed text-xl"></i>
+                                <h3 class="font-bold text-white text-base">Our Mission</h3>
+                            </div>
+                            <p class="text-xs text-gray-400 leading-relaxed">
+                                To provide uncompromising security solutions through relentless vigilance, rapid tactical deployment, and advanced digital defense strategies.
+                            </p>
+                        </div>
+                        <div class="bg-brandDarkBg p-4 rounded-xl border border-gray-800">
+                            <div class="flex items-center space-x-3 mb-2">
+                                <i class="fa-solid fa-eye text-brandRed text-xl"></i>
+                                <h3 class="font-bold text-white text-base">Our Vision</h3>
+                            </div>
+                            <p class="text-xs text-gray-400 leading-relaxed">
+                                To stand as the undisputed benchmark for security innovation and peace of mind across Kenya and greater East Africa.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Live Counter Stats -->
+                    <div class="grid grid-cols-3 gap-4 pt-4 border-t border-gray-800 text-center">
+                        <div class="p-3 bg-brandDarkBg/50 rounded-lg border border-gray-800/80">
+                            <div class="text-2xl sm:text-3xl font-black text-brandRed counter" data-target="500">500+</div>
+                            <div class="text-[11px] text-gray-400 font-medium uppercase mt-1">Vetted Guards</div>
+                        </div>
+                        <div class="p-3 bg-brandDarkBg/50 rounded-lg border border-gray-800/80">
+                            <div class="text-2xl sm:text-3xl font-black text-white counter" data-target="120">120+</div>
+                            <div class="text-[11px] text-gray-400 font-medium uppercase mt-1">Corporate Clients</div>
+                        </div>
+                        <div class="p-3 bg-brandDarkBg/50 rounded-lg border border-gray-800/80">
+                            <div class="text-2xl sm:text-3xl font-black text-brandRed">99.8%</div>
+                            <div class="text-[11px] text-gray-400 font-medium uppercase mt-1">Response Rate</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: CORE SERVICES SECTION -->
+    <section id="services" class="py-24 bg-brandDarkBg relative">
+        <div class="container mx-auto px-4 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brandRed text-xs font-extrabold tracking-widest uppercase bg-brandRed/10 border border-brandRed/20 px-4 py-1.5 rounded-full inline-block mb-3">
+                    Comprehensive Security Solutions
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight">
+                    Specialized Protection Capabilities
+                </h2>
+                <p class="text-gray-400 mt-4 text-base sm:text-lg">
+                    Tailored security frameworks designed to defend commercial properties, diplomatic personnel, industrial facilities, and digital assets.
+                </p>
+            </div>
+
+            <!-- Services Grid (8 Cards as requested) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Service 1: Security Guarding -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 hover:border-brandRed card-transition hover:shadow-2xl hover:shadow-brandRed/10 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brandRed/10 border border-brandRed/30 rounded-xl flex items-center justify-center text-brandRed text-2xl mb-6 group-hover:bg-brandRed group-hover:text-white transition duration-300">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brandRed transition">Security Guarding</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            Highly disciplined, rigorously trained, and uniformed static guards for commercial buildings, residential estates, and industrial hubs.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brandRed font-bold text-xs uppercase tracking-wider flex items-center gap-2 group-hover:underline">
+                        Request Guards <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2: V.I.P. Protection -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 hover:border-brandRed card-transition hover:shadow-2xl hover:shadow-brandRed/10 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brandRed/10 border border-brandRed/30 rounded-xl flex items-center justify-center text-brandRed text-2xl mb-6 group-hover:bg-brandRed group-hover:text-white transition duration-300">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brandRed transition">V.I.P. Protection</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            Executive close protection officers (CPOs), armored transport escort, and tactical convoy security for executives, diplomats, and celebrities.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brandRed font-bold text-xs uppercase tracking-wider flex items-center gap-2 group-hover:underline">
+                        Hire VIP Escort <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3: Cyber Security -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 hover:border-brandRed card-transition hover:shadow-2xl hover:shadow-brandRed/10 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brandRed/10 border border-brandRed/30 rounded-xl flex items-center justify-center text-brandRed text-2xl mb-6 group-hover:bg-brandRed group-hover:text-white transition duration-300">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brandRed transition">Cyber Security</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            End-to-end network protection, malware defense, cloud infrastructure security, and real-time threat monitoring SOC center.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brandRed font-bold text-xs uppercase tracking-wider flex items-center gap-2 group-hover:underline">
+                        Secure Network <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4: Access Control & CCTV -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 hover:border-brandRed card-transition hover:shadow-2xl hover:shadow-brandRed/10 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brandRed/10 border border-brandRed/30 rounded-xl flex items-center justify-center text-brandRed text-2xl mb-6 group-hover:bg-brandRed group-hover:text-white transition duration-300">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brandRed transition">Access Control & CCTV</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            Smart biometric access, RFID barriers, AI-powered CCTV thermal cameras, and central remote monitoring systems.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brandRed font-bold text-xs uppercase tracking-wider flex items-center gap-2 group-hover:underline">
+                        Install Tech <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 5: K9 Security Dogs -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 hover:border-brandRed card-transition hover:shadow-2xl hover:shadow-brandRed/10 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brandRed/10 border border-brandRed/30 rounded-xl flex items-center justify-center text-brandRed text-2xl mb-6 group-hover:bg-brandRed group-hover:text-white transition duration-300">
+                            <i class="fa-solid fa-dog"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brandRed transition">K9 Security Dogs</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            Expertly trained canine handlers and specialized K9 dogs for explosive detection, narcotics sweeping, and perimeter deterrence.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brandRed font-bold text-xs uppercase tracking-wider flex items-center gap-2 group-hover:underline">
+                        Deploy K9 Unit <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 6: Forensic Audit -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 hover:border-brandRed card-transition hover:shadow-2xl hover:shadow-brandRed/10 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brandRed/10 border border-brandRed/30 rounded-xl flex items-center justify-center text-brandRed text-2xl mb-6 group-hover:bg-brandRed group-hover:text-white transition duration-300">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brandRed transition">Forensic Audit</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            In-depth investigation of corporate fraud, financial discrepancies, breach analysis, and digital evidence gathering for litigation.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brandRed font-bold text-xs uppercase tracking-wider flex items-center gap-2 group-hover:underline">
+                        Audit Services <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 7: Risk Assessment -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 hover:border-brandRed card-transition hover:shadow-2xl hover:shadow-brandRed/10 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brandRed/10 border border-brandRed/30 rounded-xl flex items-center justify-center text-brandRed text-2xl mb-6 group-hover:bg-brandRed group-hover:text-white transition duration-300">
+                            <i class="fa-solid fa-clipboard-list"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brandRed transition">Risk Assessment</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            Comprehensive facility vulnerability audits, emergency response planning, and tailored mitigation strategies for organizations.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brandRed font-bold text-xs uppercase tracking-wider flex items-center gap-2 group-hover:underline">
+                        Get Assessed <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 8: Ethical Hacking -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 hover:border-brandRed card-transition hover:shadow-2xl hover:shadow-brandRed/10 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brandRed/10 border border-brandRed/30 rounded-xl flex items-center justify-center text-brandRed text-2xl mb-6 group-hover:bg-brandRed group-hover:text-white transition duration-300">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brandRed transition">Ethical Hacking</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            Authorized penetration testing (PenTesting), red-teaming simulations, and vulnerability remediation to prevent cyber attacks.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brandRed font-bold text-xs uppercase tracking-wider flex items-center gap-2 group-hover:underline">
+                        Start PenTest <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: WHY CHOOSE US -->
+    <section id="why-us" class="py-20 bg-brandSlate relative border-t border-b border-gray-800">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brandRed text-xs font-extrabold tracking-widest uppercase">The Brillex Advantage</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Why Nairobi Trust BRILLEX Security</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Pillar 1 -->
+                <div class="bg-brandDarkBg p-6 rounded-2xl border border-gray-800 text-center relative overflow-hidden group hover:border-brandRed transition">
+                    <div class="w-16 h-16 bg-brandRed/10 rounded-full flex items-center justify-center text-brandRed text-2xl mx-auto mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">24/7 Rapid Response</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Dedicated mobile tactical chase vehicles strategically positioned in Nairobi for swift incident containment under 7 minutes.
+                    </p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="bg-brandDarkBg p-6 rounded-2xl border border-gray-800 text-center relative overflow-hidden group hover:border-brandRed transition">
+                    <div class="w-16 h-16 bg-brandRed/10 rounded-full flex items-center justify-center text-brandRed text-2xl mx-auto mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Advanced AI Tech Integration</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Combining human vigilance with smart AI analytics, automatic license plate recognition (ALPR), and cyber threat intelligence.
+                    </p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="bg-brandDarkBg p-6 rounded-2xl border border-gray-800 text-center relative overflow-hidden group hover:border-brandRed transition">
+                    <div class="w-16 h-16 bg-brandRed/10 rounded-full flex items-center justify-center text-brandRed text-2xl mx-auto mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Rigorous Officer Vetting</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Every officer undergoes criminal background verification, psychological profiling, and tactical combat training.
+                    </p>
+                </div>
+
+                <!-- Pillar 4 -->
+                <div class="bg-brandDarkBg p-6 rounded-2xl border border-gray-800 text-center relative overflow-hidden group hover:border-brandRed transition">
+                    <div class="w-16 h-16 bg-brandRed/10 rounded-full flex items-center justify-center text-brandRed text-2xl mx-auto mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Tailored Protocols</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        We design custom security architecture specific to your industry risk matrix, avoiding one-size-fits-all strategies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: CLIENTS & TESTIMONIALS -->
+    <section id="clients" class="py-20 bg-brandDarkBg">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="text-brandRed text-xs font-extrabold tracking-widest uppercase">Trusted By Industry Leaders</span>
+                <h2 class="text-3xl font-extrabold text-white mt-2">Valued Clients & Partners</h2>
+            </div>
+
+            <!-- Client Logos Mock Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 opacity-75">
+                <div class="bg-brandSlate p-6 rounded-xl border border-gray-800 flex items-center justify-center text-gray-400 font-bold text-sm tracking-wider uppercase">
+                    <i class="fa-solid fa-building-columns text-2xl text-brandRed mr-2"></i> Apex Commercial Bank
+                </div>
+                <div class="bg-brandSlate p-6 rounded-xl border border-gray-800 flex items-center justify-center text-gray-400 font-bold text-sm tracking-wider uppercase">
+                    <i class="fa-solid fa-plane text-2xl text-brandRed mr-2"></i> Global Transit Kenya
+                </div>
+                <div class="bg-brandSlate p-6 rounded-xl border border-gray-800 flex items-center justify-center text-gray-400 font-bold text-sm tracking-wider uppercase">
+                    <i class="fa-solid fa-hospital text-2xl text-brandRed mr-2"></i> Horizon Healthcare
+                </div>
+                <div class="bg-brandSlate p-6 rounded-xl border border-gray-800 flex items-center justify-center text-gray-400 font-bold text-sm tracking-wider uppercase">
+                    <i class="fa-solid fa-warehouse text-2xl text-brandRed mr-2"></i> Rift Logistics Hub
+                </div>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 space-x-1 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 text-sm italic leading-relaxed">
+                            "BRILLEX SECURITY GROUP revolutionized our corporate headquarters' physical and network security. Their rapid response team in Nairobi is unmatched in speed."
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-800 flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-brandRed flex items-center justify-center font-bold text-white">
+                            JK
+                        </div>
+                        <div>
+                            <h4 class="text-white text-sm font-bold">James Kariuki</h4>
+                            <p class="text-xs text-gray-400">Head of Operations, Financial Sector</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 space-x-1 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 text-sm italic leading-relaxed">
+                            "Their ethical hacking team uncovered critical vulnerabilities in our infrastructure before malicious actors could exploit them. Truly professional security experts."
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-800 flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center font-bold text-white">
+                            AO
+                        </div>
+                        <div>
+                            <h4 class="text-white text-sm font-bold">Aminah Omondi</h4>
+                            <p class="text-xs text-gray-400">CTO, Tech Logistics Enterprise</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-brandSlate p-6 rounded-2xl border border-gray-800 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 space-x-1 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 text-sm italic leading-relaxed">
+                            "The VIP close protection provided for our international delegates was flawless. Discreet, highly disciplined, and punctual."
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-800 flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-brandRed flex items-center justify-center font-bold text-white">
+                            DM
+                        </div>
+                        <div>
+                            <h4 class="text-white text-sm font-bold">David Mwangi</h4>
+                            <p class="text-xs text-gray-400">Managing Director, NGO Delegation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: TEAM OF EXPERTS -->
+    <section id="team" class="py-20 bg-brandSlate border-t border-gray-800">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-brandRed text-xs font-extrabold tracking-widest uppercase">Command Leadership</span>
+                <h2 class="text-3xl font-extrabold text-white mt-2">Team of Security Experts</h2>
+                <p class="text-gray-400 text-sm mt-2">Helmed by seasoned military, law enforcement, and cybersecurity veterans.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Expert 1 -->
+                <div class="bg-brandDarkBg rounded-2xl overflow-hidden border border-gray-800 group hover:border-brandRed transition">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80" alt="Command Officer" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandDarkBg via-transparent to-transparent"></div>
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="text-lg font-bold text-white">Col. (Rtd) R. Kiprop</h3>
+                        <p class="text-xs text-brandRed font-semibold uppercase tracking-wider mb-2">Chief Security Officer</p>
+                        <p class="text-xs text-gray-400">20+ years military & tactical counter-terrorism operations background.</p>
+                    </div>
+                </div>
+
+                <!-- Expert 2 -->
+                <div class="bg-brandDarkBg rounded-2xl overflow-hidden border border-gray-800 group hover:border-brandRed transition">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Cyber Security Specialist" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandDarkBg via-transparent to-transparent"></div>
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="text-lg font-bold text-white">Dr. Sarah Njuguna</h3>
+                        <p class="text-xs text-brandRed font-semibold uppercase tracking-wider mb-2">Head of Cyber Security</p>
+                        <p class="text-xs text-gray-400">Certified Information Systems Security Professional (CISSP).</p>
+                    </div>
+                </div>
+
+                <!-- Expert 3 -->
+                <div class="bg-brandDarkBg rounded-2xl overflow-hidden border border-gray-800 group hover:border-brandRed transition">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80" alt="K9 Operations Director" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandDarkBg via-transparent to-transparent"></div>
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="text-lg font-bold text-white">Capt. Alex Mutua</h3>
+                        <p class="text-xs text-brandRed font-semibold uppercase tracking-wider mb-2">Director of K9 & Field Ops</p>
+                        <p class="text-xs text-gray-400">Master K9 trainer specializing in explosive and threat detection.</p>
+                    </div>
+                </div>
+
+                <!-- Expert 4 -->
+                <div class="bg-brandDarkBg rounded-2xl overflow-hidden border border-gray-800 group hover:border-brandRed transition">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80" alt="Forensic Auditor" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandDarkBg via-transparent to-transparent"></div>
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="text-lg font-bold text-white">Grace Wambui</h3>
+                        <p class="text-xs text-brandRed font-semibold uppercase tracking-wider mb-2">Lead Forensic Auditor</p>
+                        <p class="text-xs text-gray-400">Specialist in corporate intelligence and financial crime investigation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: TRAINING ACADEMY -->
+    <section id="training" class="py-20 bg-brandDarkBg relative">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="bg-gradient-to-r from-brandSlate via-gray-900 to-brandSlate rounded-3xl p-8 lg:p-12 border border-gray-800 relative overflow-hidden shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <div class="lg:col-span-7 space-y-6">
+                        <span class="bg-brandRed/20 text-brandRed text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider border border-brandRed/30">
+                            Brillex Security Training Academy
+                        </span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                            Tactical & Professional Security Certification Programs
+                        </h2>
+                        <p class="text-gray-300 text-sm sm:text-base leading-relaxed">
+                            We train corporate security teams, private guards, and individuals in advanced combat defense, canine handling, executive protection tactics, cyber defense awareness, and emergency first aid.
+                        </p>
+                        
+                        <!-- Training Modules List -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                            <div class="flex items-center space-x-2 text-xs font-bold text-gray-200">
+                                <i class="fa-solid fa-circle-check text-brandRed"></i>
+                                <span>VIP Close Protection Tactics</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-xs font-bold text-gray-200">
+                                <i class="fa-solid fa-circle-check text-brandRed"></i>
+                                <span>Canine (K9) Handler Certification</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-xs font-bold text-gray-200">
+                                <i class="fa-solid fa-circle-check text-brandRed"></i>
+                                <span>Cyber Threat Defense & Awareness</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-xs font-bold text-gray-200">
+                                <i class="fa-solid fa-circle-check text-brandRed"></i>
+                                <span>Tactical First Aid & Fire Fighting</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-4">
+                            <a href="#contact" class="inline-flex items-center px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-brandRed rounded-lg hover:bg-brandRedDark transition">
+                                Enroll Staff in Academy <i class="fa-solid fa-graduation-cap ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 relative">
+                        <div class="rounded-2xl overflow-hidden border border-gray-700 shadow-lg">
+                            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" alt="Security Training Session" class="w-full h-72 object-cover">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 8: CONTACT WEBPAGE & AUDIT REQUEST FORM -->
+    <section id="contact" class="py-24 bg-brandSlate relative">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-brandRed text-xs font-extrabold tracking-widest uppercase">Get In Touch</span>
+                <h2 class="text-3xl sm:text-5xl font-black text-white mt-2">Contact Security Command</h2>
+                <p class="text-gray-400 text-sm mt-3">Ready to reinforce your physical or digital security? Reach out to our Nairobi headquarters today.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+                
+                <!-- Left: Contact Details & Interactive Map -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="bg-brandDarkBg p-6 rounded-2xl border border-gray-800 space-y-6">
+                        <h3 class="text-xl font-bold text-white border-b border-gray-800 pb-3">Headquarters Info</h3>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brandRed/10 text-brandRed flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm">Physical Address</h4>
+                                <p class="text-xs text-gray-400 leading-relaxed">Mombasa Road Commercial Complex, Suite 4B<br>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brandRed/10 text-brandRed flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm">24/7 Hotline</h4>
+                                <p class="text-xs text-gray-400">+254 (0) 700 000 000 / +254 (0) 722 000 000</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brandRed/10 text-brandRed flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm">Email Address</h4>
+                                <p class="text-xs text-gray-400">info@brillexsecurity.co.ke</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map Display Box -->
+                    <div class="bg-brandDarkBg p-4 rounded-2xl border border-gray-800">
+                        <div class="w-full h-48 rounded-xl overflow-hidden bg-gray-900 relative">
+                            <!-- Styled Google Map Embed for Nairobi -->
+                            <iframe 
+                                title="Brillex Security Nairobi Location"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255281.19036259838!2d36.70730724838637!3d-1.3031933718010499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske" 
+                                class="w-full h-full border-0 grayscale opacity-80 hover:opacity-100 transition" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Interactive Form -->
+                <div class="lg:col-span-7">
+                    <div class="bg-brandDarkBg p-8 rounded-2xl border border-gray-800 shadow-xl">
+                        <h3 class="text-2xl font-bold text-white mb-2">Request Security Consultation</h3>
+                        <p class="text-xs text-gray-400 mb-6">Fill out the form below to receive a customized security proposal or emergency briefing.</p>
+
+                        <form id="contact-form" class="space-y-4" onsubmit="handleFormSubmit(event)">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-300 mb-1">Full Name *</label>
+                                    <input type="text" required placeholder="John Doe" class="w-full bg-brandSlate border border-gray-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brandRed transition">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-300 mb-1">Phone Number *</label>
+                                    <input type="tel" required placeholder="+254 700 000000" class="w-full bg-brandSlate border border-gray-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brandRed transition">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-300 mb-1">Email Address *</label>
+                                    <input type="email" required placeholder="john@company.com" class="w-full bg-brandSlate border border-gray-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brandRed transition">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-300 mb-1">Service Required</label>
+                                    <select class="w-full bg-brandSlate border border-gray-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brandRed transition">
+                                        <option value="guarding">Security Guarding</option>
+                                        <option value="vip">V.I.P. Protection</option>
+                                        <option value="cyber">Cyber Security Defense</option>
+                                        <option value="cctv">Access Control & CCTV</option>
+                                        <option value="k9">Security K9 Unit</option>
+                                        <option value="forensic">Forensic Audit</option>
+                                        <option value="risk">Risk Assessment</option>
+                                        <option value="hacking">Ethical Hacking / PenTest</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-300 mb-1">Message / Project Brief *</label>
+                                <textarea rows="4" required placeholder="Describe your location, security scope, or specific protection requirements..." class="w-full bg-brandSlate border border-gray-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-brandRed transition"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-gradient-to-r from-brandRed to-brandRedDark text-white font-bold py-4 px-6 rounded-xl shadow-lg hover:from-red-600 hover:to-brandRed transition text-sm uppercase tracking-wider red-glow">
+                                Send Security Briefing Request <i class="fa-solid fa-paper-plane ml-2"></i>
+                            </button>
+                        </form>
+
+                        <!-- Custom Alert Dialog Container -->
+                        <div id="form-alert" class="hidden mt-4 p-4 rounded-xl text-sm font-semibold"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black border-t border-gray-800 py-12 text-gray-400 text-sm">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <!-- Col 1: Logo & Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <img src="Brillex-logo.jpg" alt="BRILLEX Logo" class="w-10 h-10 rounded-full border border-brandRed" onerror="this.onerror=null; this.src='https://placehold.co/80x80/111827/E50914?text=B';">
+                        <span class="font-extrabold text-lg text-white tracking-wider">BRILLEX <span class="text-brandRed">SECURITY</span></span>
+                    </div>
+                    <p class="text-xs leading-relaxed text-gray-400">
+                        BRILLEX SECURITY GROUP LTD is a registered security entity in Kenya dedicated to physical safeguarding, intelligent surveillance, and cyber defense.
+                    </p>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4 border-l-2 border-brandRed pl-2">Navigation</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#home" class="hover:text-brandRed transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-brandRed transition">About Us</a></li>
+                        <li><a href="#services" class="hover:text-brandRed transition">Services</a></li>
+                        <li><a href="#why-us" class="hover:text-brandRed transition">Why Choose Us</a></li>
+                        <li><a href="#training" class="hover:text-brandRed transition">Training Academy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Services -->
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4 border-l-2 border-brandRed pl-2">Core Services</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#services" class="hover:text-brandRed transition">V.I.P Close Protection</a></li>
+                        <li><a href="#services" class="hover:text-brandRed transition">Physical Guarding</a></li>
+                        <li><a href="#services" class="hover:text-brandRed transition">Ethical Hacking & Audit</a></li>
+                        <li><a href="#services" class="hover:text-brandRed transition">K9 Security Operations</a></li>
+                        <li><a href="#services" class="hover:text-brandRed transition">Access Control Systems</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Social & Security Status -->
+                <div class="space-y-4">
+                    <h4 class="text-white font-bold text-sm uppercase tracking-wider border-l-2 border-brandRed pl-2">Connect With Us</h4>
+                    <div class="flex space-x-3">
+                        <a href="#" class="w-9 h-9 rounded-lg bg-gray-900 border border-gray-700 flex items-center justify-center text-gray-300 hover:text-brandRed hover:border-brandRed transition"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-gray-900 border border-gray-700 flex items-center justify-center text-gray-300 hover:text-brandRed hover:border-brandRed transition"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-gray-900 border border-gray-700 flex items-center justify-center text-gray-300 hover:text-brandRed hover:border-brandRed transition"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-gray-900 border border-gray-700 flex items-center justify-center text-gray-300 hover:text-brandRed hover:border-brandRed transition"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="pt-2">
+                        <span class="text-[11px] text-gray-500 block">System Defense Readiness:</span>
+                        <span class="text-xs text-emerald-400 font-mono font-bold"><i class="fa-solid fa-shield-check"></i> ACTIVE • DEFCON 1</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 space-y-3 sm:space-y-0">
+                <p>&copy; <span id="current-year"></span> BRILLEX SECURITY GROUP LTD. All Rights Reserved. Nairobi, Kenya.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+                    <a href="#" class="hover:text-gray-400">Terms of Service</a>
+                    <a href="#" class="hover:text-gray-400">Security Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE JAVASCRIPT LOGIC -->
+    <script src="script.js"></script>
+</body>
+</html>
